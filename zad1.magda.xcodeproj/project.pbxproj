@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F504B5927173C5C007A64B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F504B5827173C5C007A64B8 /* AppDelegate.m */; };
+		3F504B5C27173C5C007A64B8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F504B5B27173C5C007A64B8 /* SceneDelegate.m */; };
+		3F504B5F27173C5C007A64B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F504B5E27173C5C007A64B8 /* ViewController.m */; };
+		3F504B6227173C5C007A64B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F504B6027173C5C007A64B8 /* Main.storyboard */; };
+		3F504B6527173C5C007A64B8 /* zad1_magda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F504B6327173C5C007A64B8 /* zad1_magda.xcdatamodeld */; };
+		3F504B6727173C5E007A64B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F504B6627173C5E007A64B8 /* Assets.xcassets */; };
+		3F504B6A27173C5E007A64B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F504B6827173C5E007A64B8 /* LaunchScreen.storyboard */; };
+		3F504B6D27173C5E007A64B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F504B6C27173C5E007A64B8 /* main.m */; };
+		3F504B7727173C5E007A64B8 /* zad1_magdaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F504B7627173C5E007A64B8 /* zad1_magdaTests.m */; };
+		3F504B8227173C5E007A64B8 /* zad1_magdaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F504B8127173C5E007A64B8 /* zad1_magdaUITests.m */; };
+		3FA1FE19272072DC0093E123 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1FE18272072DC0093E123 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F504B7327173C5E007A64B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F504B4C27173C5C007A64B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F504B5327173C5C007A64B8;
+			remoteInfo = zad1.magda;
+		};
+		3F504B7E27173C5E007A64B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F504B4C27173C5C007A64B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F504B5327173C5C007A64B8;
+			remoteInfo = zad1.magda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F504B5427173C5C007A64B8 /* zad1.magda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zad1.magda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F504B5727173C5C007A64B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F504B5827173C5C007A64B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F504B5A27173C5C007A64B8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3F504B5B27173C5C007A64B8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3F504B5D27173C5C007A64B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F504B5E27173C5C007A64B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F504B6127173C5C007A64B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F504B6427173C5C007A64B8 /* zad1_magda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zad1_magda.xcdatamodel; sourceTree = "<group>"; };
+		3F504B6627173C5E007A64B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F504B6927173C5E007A64B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F504B6B27173C5E007A64B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F504B6C27173C5E007A64B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F504B7227173C5E007A64B8 /* zad1.magdaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zad1.magdaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F504B7627173C5E007A64B8 /* zad1_magdaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zad1_magdaTests.m; sourceTree = "<group>"; };
+		3F504B7827173C5E007A64B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F504B7D27173C5E007A64B8 /* zad1.magdaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zad1.magdaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F504B8127173C5E007A64B8 /* zad1_magdaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zad1_magdaUITests.m; sourceTree = "<group>"; };
+		3F504B8327173C5E007A64B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA1FE17272072DC0093E123 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3FA1FE18272072DC0093E123 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F504B5127173C5C007A64B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F504B6F27173C5E007A64B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F504B7A27173C5E007A64B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F504B4B27173C5C007A64B8 = {
+			isa = PBXGroup;
+			children = (
+				3F504B5627173C5C007A64B8 /* zad1.magda */,
+				3F504B7527173C5E007A64B8 /* zad1.magdaTests */,
+				3F504B8027173C5E007A64B8 /* zad1.magdaUITests */,
+				3F504B5527173C5C007A64B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F504B5527173C5C007A64B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F504B5427173C5C007A64B8 /* zad1.magda.app */,
+				3F504B7227173C5E007A64B8 /* zad1.magdaTests.xctest */,
+				3F504B7D27173C5E007A64B8 /* zad1.magdaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F504B5627173C5C007A64B8 /* zad1.magda */ = {
+			isa = PBXGroup;
+			children = (
+				3F504B5727173C5C007A64B8 /* AppDelegate.h */,
+				3F504B5827173C5C007A64B8 /* AppDelegate.m */,
+				3F504B5A27173C5C007A64B8 /* SceneDelegate.h */,
+				3F504B5B27173C5C007A64B8 /* SceneDelegate.m */,
+				3F504B5D27173C5C007A64B8 /* ViewController.h */,
+				3F504B5E27173C5C007A64B8 /* ViewController.m */,
+				3FA1FE17272072DC0093E123 /* SecondViewController.h */,
+				3FA1FE18272072DC0093E123 /* SecondViewController.m */,
+				3F504B6027173C5C007A64B8 /* Main.storyboard */,
+				3F504B6627173C5E007A64B8 /* Assets.xcassets */,
+				3F504B6827173C5E007A64B8 /* LaunchScreen.storyboard */,
+				3F504B6B27173C5E007A64B8 /* Info.plist */,
+				3F504B6C27173C5E007A64B8 /* main.m */,
+				3F504B6327173C5C007A64B8 /* zad1_magda.xcdatamodeld */,
+			);
+			path = zad1.magda;
+			sourceTree = "<group>";
+		};
+		3F504B7527173C5E007A64B8 /* zad1.magdaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F504B7627173C5E007A64B8 /* zad1_magdaTests.m */,
+				3F504B7827173C5E007A64B8 /* Info.plist */,
+			);
+			path = zad1.magdaTests;
+			sourceTree = "<group>";
+		};
+		3F504B8027173C5E007A64B8 /* zad1.magdaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F504B8127173C5E007A64B8 /* zad1_magdaUITests.m */,
+				3F504B8327173C5E007A64B8 /* Info.plist */,
+			);
+			path = zad1.magdaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F504B5327173C5C007A64B8 /* zad1.magda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F504B8627173C5E007A64B8 /* Build configuration list for PBXNativeTarget "zad1.magda" */;
+			buildPhases = (
+				3F504B5027173C5C007A64B8 /* Sources */,
+				3F504B5127173C5C007A64B8 /* Frameworks */,
+				3F504B5227173C5C007A64B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zad1.magda;
+			productName = zad1.magda;
+			productReference = 3F504B5427173C5C007A64B8 /* zad1.magda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F504B7127173C5E007A64B8 /* zad1.magdaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F504B8927173C5E007A64B8 /* Build configuration list for PBXNativeTarget "zad1.magdaTests" */;
+			buildPhases = (
+				3F504B6E27173C5E007A64B8 /* Sources */,
+				3F504B6F27173C5E007A64B8 /* Frameworks */,
+				3F504B7027173C5E007A64B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F504B7427173C5E007A64B8 /* PBXTargetDependency */,
+			);
+			name = zad1.magdaTests;
+			productName = zad1.magdaTests;
+			productReference = 3F504B7227173C5E007A64B8 /* zad1.magdaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F504B7C27173C5E007A64B8 /* zad1.magdaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F504B8C27173C5E007A64B8 /* Build configuration list for PBXNativeTarget "zad1.magdaUITests" */;
+			buildPhases = (
+				3F504B7927173C5E007A64B8 /* Sources */,
+				3F504B7A27173C5E007A64B8 /* Frameworks */,
+				3F504B7B27173C5E007A64B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F504B7F27173C5E007A64B8 /* PBXTargetDependency */,
+			);
+			name = zad1.magdaUITests;
+			productName = zad1.magdaUITests;
+			productReference = 3F504B7D27173C5E007A64B8 /* zad1.magdaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F504B4C27173C5C007A64B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = aplikacja;
+				TargetAttributes = {
+					3F504B5327173C5C007A64B8 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					3F504B7127173C5E007A64B8 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 3F504B5327173C5C007A64B8;
+					};
+					3F504B7C27173C5E007A64B8 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 3F504B5327173C5C007A64B8;
+					};
+				};
+			};
+			buildConfigurationList = 3F504B4F27173C5C007A64B8 /* Build configuration list for PBXProject "zad1.magda" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F504B4B27173C5C007A64B8;
+			productRefGroup = 3F504B5527173C5C007A64B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F504B5327173C5C007A64B8 /* zad1.magda */,
+				3F504B7127173C5E007A64B8 /* zad1.magdaTests */,
+				3F504B7C27173C5E007A64B8 /* zad1.magdaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F504B5227173C5C007A64B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F504B6A27173C5E007A64B8 /* LaunchScreen.storyboard in Resources */,
+				3F504B6727173C5E007A64B8 /* Assets.xcassets in Resources */,
+				3F504B6227173C5C007A64B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F504B7027173C5E007A64B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F504B7B27173C5E007A64B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F504B5027173C5C007A64B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA1FE19272072DC0093E123 /* SecondViewController.m in Sources */,
+				3F504B6D27173C5E007A64B8 /* main.m in Sources */,
+				3F504B6527173C5C007A64B8 /* zad1_magda.xcdatamodeld in Sources */,
+				3F504B5F27173C5C007A64B8 /* ViewController.m in Sources */,
+				3F504B5927173C5C007A64B8 /* AppDelegate.m in Sources */,
+				3F504B5C27173C5C007A64B8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F504B6E27173C5E007A64B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F504B7727173C5E007A64B8 /* zad1_magdaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F504B7927173C5E007A64B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F504B8227173C5E007A64B8 /* zad1_magdaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F504B7427173C5E007A64B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F504B5327173C5C007A64B8 /* zad1.magda */;
+			targetProxy = 3F504B7327173C5E007A64B8 /* PBXContainerItemProxy */;
+		};
+		3F504B7F27173C5E007A64B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F504B5327173C5C007A64B8 /* zad1.magda */;
+			targetProxy = 3F504B7E27173C5E007A64B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F504B6027173C5C007A64B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F504B6127173C5C007A64B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F504B6827173C5E007A64B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F504B6927173C5E007A64B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F504B8427173C5E007A64B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F504B8527173C5E007A64B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F504B8727173C5E007A64B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zad1.magda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.jr.zad1-magda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F504B8827173C5E007A64B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zad1.magda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.jr.zad1-magda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F504B8A27173C5E007A64B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zad1.magdaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.jr.zad1-magdaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zad1.magda.app/zad1.magda";
+			};
+			name = Debug;
+		};
+		3F504B8B27173C5E007A64B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zad1.magdaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.jr.zad1-magdaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zad1.magda.app/zad1.magda";
+			};
+			name = Release;
+		};
+		3F504B8D27173C5E007A64B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zad1.magdaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.jr.zad1-magdaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zad1.magda;
+			};
+			name = Debug;
+		};
+		3F504B8E27173C5E007A64B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zad1.magdaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.jr.zad1-magdaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zad1.magda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F504B4F27173C5C007A64B8 /* Build configuration list for PBXProject "zad1.magda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F504B8427173C5E007A64B8 /* Debug */,
+				3F504B8527173C5E007A64B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F504B8627173C5E007A64B8 /* Build configuration list for PBXNativeTarget "zad1.magda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F504B8727173C5E007A64B8 /* Debug */,
+				3F504B8827173C5E007A64B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F504B8927173C5E007A64B8 /* Build configuration list for PBXNativeTarget "zad1.magdaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F504B8A27173C5E007A64B8 /* Debug */,
+				3F504B8B27173C5E007A64B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F504B8C27173C5E007A64B8 /* Build configuration list for PBXNativeTarget "zad1.magdaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F504B8D27173C5E007A64B8 /* Debug */,
+				3F504B8E27173C5E007A64B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F504B6327173C5C007A64B8 /* zad1_magda.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F504B6427173C5C007A64B8 /* zad1_magda.xcdatamodel */,
+			);
+			currentVersion = 3F504B6427173C5C007A64B8 /* zad1_magda.xcdatamodel */;
+			path = zad1_magda.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F504B4C27173C5C007A64B8 /* Project object */;
+}

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter your name..." borderStyle="roundedRect" placeholder="Please enter your name here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u2N-AU-WFi">
+                                <rect key="frame" x="59" y="352" width="297" height="34"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Sr-6r-qT0">
+                                <rect key="frame" x="304" y="407" width="59" height="30"/>
+                                <state key="normal" title="Click me"/>
+                                <connections>
+                                    <action selector="enter" destination="BYZ-38-t0r" eventType="touchUpInside" id="t8j-O0-eIf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Hi!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BV6-C7-h5o">
+                                <rect key="frame" x="59" y="312" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="l1r-ho-6o9">
+                                <rect key="frame" x="166" y="585" width="83" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hvo-Eo-7o1" kind="show" id="SoZ-2f-WSW"/>
+                                </connections>
+                            </button>
+                            <textField autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" text="...and your surname" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="abB-oi-Cab" userLabel="surnameTextField" customClass="surnameTextField">
+                                <rect key="frame" x="59" y="494" width="297" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="u2N-AU-WFi" firstAttribute="top" secondItem="BV6-C7-h5o" secondAttribute="bottom" constant="8" id="0DD-I4-qMw"/>
+                            <constraint firstItem="u2N-AU-WFi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Hl-eR-nqc"/>
+                            <constraint firstItem="u2N-AU-WFi" firstAttribute="trailing" secondItem="abB-oi-Cab" secondAttribute="trailing" id="Gfh-DP-Inq"/>
+                            <constraint firstItem="8Sr-6r-qT0" firstAttribute="top" secondItem="u2N-AU-WFi" secondAttribute="bottom" constant="32" id="VkU-X5-xiC"/>
+                            <constraint firstItem="u2N-AU-WFi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="YqJ-5l-jWN"/>
+                            <constraint firstItem="u2N-AU-WFi" firstAttribute="leading" secondItem="BV6-C7-h5o" secondAttribute="leading" id="kyD-kv-z43"/>
+                            <constraint firstItem="u2N-AU-WFi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="341" id="ni0-Zf-8JH"/>
+                            <constraint firstItem="u2N-AU-WFi" firstAttribute="leading" secondItem="abB-oi-Cab" secondAttribute="leading" id="tcA-vx-7xf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NDM-z2-F7P"/>
+                    <connections>
+                        <outlet property="inputField" destination="u2N-AU-WFi" id="UOw-vL-vGz"/>
+                        <outlet property="messageLabel" destination="BV6-C7-h5o" id="kaM-Hc-tD0"/>
+                        <outlet property="surnameTextField" destination="abB-oi-Cab" id="8YY-8k-pjO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-680" y="84"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="crD-it-Ymb">
+            <objects>
+                <viewController id="hvo-Eo-7o1" customClass="SecondViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oXn-qn-XIJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cpy-1i-MbT" userLabel="modifiedSurnameInputField">
+                                <rect key="frame" x="45" y="200" width="324" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixz-OB-OzE" userLabel="backButton">
+                                <rect key="frame" x="179" y="290" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="brT-Nt-qXr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="sMH-JV-LyI"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sNO-PY-fxG"/>
+                    <connections>
+                        <outlet property="modifiedSurnameInputField" destination="cpy-1i-MbT" id="bUB-ga-fFT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LeE-j0-hmU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="222" y="84"/>
+        </scene>
+    </scenes>
+</document>
